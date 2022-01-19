@@ -1,6 +1,5 @@
 -r requirements.txt
 
-pip-tools
 coverage
 blue==0.7.0
 factory-boy==3.2.1
