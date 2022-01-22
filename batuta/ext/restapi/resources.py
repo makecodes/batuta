@@ -8,11 +8,9 @@ from batuta.models import Product
 class ProductResource(Resource):
     def get(self):
         products = Product.query.all() or abort(204)
-        return jsonify(
-            {"products": [product.to_dict() for product in products]}
-        )
+        return jsonify({'products': [product.to_dict() for product in products]})
 
-    @login_required(basic=True, username="admin")
+    @login_required(basic=True, username='admin')
     def post(self):
         """
         Creates a new product.
@@ -24,9 +22,7 @@ class ProductResource(Resource):
         #  -H "Authorization: Basic Y2h1Y2s6bm9ycmlz" \
         #  -H "Content-Type: application/json"
         """
-        return NotImplementedError(
-            "Someone please complete this example and send a PR :)"
-        )
+        return NotImplementedError('Someone please complete this example and send a PR :)')
 
 
 class ProductItemResource(Resource):

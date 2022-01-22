@@ -9,5 +9,5 @@ def main():
     """Management script for the batuta application."""
 
 
-if __name__ == "__main__":  # pragma: no cover
+if __name__ == '__main__':  # pragma: no cover
     main()

@@ -1,6 +1,6 @@
 pytest
 coverage
-flake8
+flake8==3.9.2
 blue
 isort
 pytest-cov
