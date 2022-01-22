@@ -33,13 +33,13 @@ done
 if [ ! -f pyproject.toml ]
 then
     cat ${TEMPLATE_DIR}/requirements.txt >> requirements.txt
-    cat ${TEMPLATE_DIR}/requirements-test.txt >> requirements-test.txt
+    cat ${TEMPLATE_DIR}/requirements-dev.txt >> requirements-dev.txt
 else
     for item in $(cat ${TEMPLATE_DIR}/requirements.txt)
     do
         poetry add "${item}"
     done
-    for item in $(cat ${TEMPLATE_DIR}/requirements-test.txt)
+    for item in $(cat ${TEMPLATE_DIR}/requirements-dev.txt)
     do
         poetry add --dev "${item}"
     done

@@ -40,7 +40,7 @@ Lets take a look at the structure of this template:
 ├── README.md                # The main readme for the project
 ├── setup.py                 # The setup.py file for installing and packaging the project
 ├── requirements.txt         # An empty file to hold the requirements for the project
-├── requirements-test.txt    # List of requirements for testing and devlopment
+├── requirements-dev.txt     # List of requirements for testing and devlopment
 ├── setup.py                 # The setup.py file for installing and packaging the project
 └── tests                    # Unit tests for the project (add mote tests files here)
     ├── conftest.py          # Configuration, hooks and fixtures for pytest
@@ -70,7 +70,7 @@ This template is a low dependency project, so it doesn't have any extra dependen
 You can add new dependencies as you will or you can use the `make init` command to
 generate a `requirements.txt` file based on the template you choose `flask, fastapi, click etc`.
 
-### Why there is a `requirements-test.txt` file ?
+### Why there is a `requirements-dev.txt` file ?
 
 This file lists all the requirements for testing and development,
 I think the development environment and testing environment should be as similar as possible.

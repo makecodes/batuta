@@ -43,7 +43,6 @@ setup(
         "console_scripts": ["batuta = batuta.__main__:main"]
     },
     extras_require={
-        "test": read_requirements("requirements-test.txt")
-        + read_requirements("requirements-base.txt")
+        "test": read_requirements("requirements-dev.txt")
     },
 )
