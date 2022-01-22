@@ -1,0 +1,17 @@
+-r requirements.txt
+
+blue
+codecov
+coverage
+flake8==3.9.2
+flask-debugtoolbar
+flask-shell-ipython
+gitchangelog
+ipdb
+isort
+mkdocs
+mypy
+pytest
+pytest-cov
+pytest-flask
+python-dotenv
