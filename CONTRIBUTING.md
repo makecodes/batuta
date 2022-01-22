@@ -1,6 +1,6 @@
 # How to develop on this project
 
-flask_start welcomes contributions from the community.
+batuta welcomes contributions from the community.
 
 **You need PYTHON3!**
 
@@ -8,9 +8,9 @@ This instructions are for linux base systems. (Linux, MacOS, BSD, etc.)
 ## Setting up your own fork of this repo.
 
 - On github interface click on `Fork` button.
-- Clone your fork of this repo. `git clone git@github.com:YOUR_GIT_USERNAME/flask-start.git`
-- Enter the directory `cd flask-start`
-- Add upstream repo `git remote add upstream https://github.com/imakecodes/flask-start`
+- Clone your fork of this repo. `git clone git@github.com:YOUR_GIT_USERNAME/batuta.git`
+- Enter the directory `cd batuta`
+- Add upstream repo `git remote add upstream https://github.com/makecodes/batuta`
 
 ## Setting up your own virtual environment
 

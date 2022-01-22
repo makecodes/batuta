@@ -1,8 +1,8 @@
 from flask_simplelogin import SimpleLogin
 from werkzeug.security import check_password_hash, generate_password_hash
 
-from flask_start.ext.database import db
-from flask_start.models import User
+from batuta.ext.database import db
+from batuta.models import User
 
 
 def verify_login(user):

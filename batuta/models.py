@@ -1,6 +1,6 @@
 from sqlalchemy_serializer import SerializerMixin
 
-from flask_start.ext.database import db
+from batuta.ext.database import db
 
 
 class Product(db.Model, SerializerMixin):

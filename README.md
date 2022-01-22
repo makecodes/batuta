@@ -36,7 +36,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <flask_start>` or `$ flask_start` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <batuta>` or `$ batuta` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -45,24 +45,24 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# flask_start Flask Application
+# batuta Flask Application
 
-Awesome flask_start created by imakecodes
+Awesome batuta created by makecodes
 
 ## Installation
 
 From source:
 
 ```bash
-git clone https://github.com/imakecodes/flask-start flask_start
-cd flask_start
+git clone https://github.com/makecodes/batuta batuta
+cd batuta
 make install
 ```
 
 From pypi:
 
 ```bash
-pip install flask_start
+pip install batuta
 ```
 
 ## Executing
@@ -72,13 +72,13 @@ This application has a CLI interface that extends the Flask CLI.
 Just run:
 
 ```bash
-$ flask_start
+$ batuta
 ```
 
 or
 
 ```bash
-$ python -m flask_start
+$ python -m batuta
 ```
 
 To see the help message and usage instructions.
@@ -86,10 +86,10 @@ To see the help message and usage instructions.
 ## First run
 
 ```bash
-flask_start create-db   # run once
-flask_start populate-db  # run once (optional)
-flask_start add-user -u admin -p 1234  # ads a user
-flask_start run
+batuta create-db   # run once
+batuta populate-db  # run once (optional)
+batuta add-user -u admin -p 1234  # ads a user
+batuta run
 ```
 
 Go to:

@@ -1,8 +1,8 @@
 import click
 
-from flask_start.ext.auth import create_user
-from flask_start.ext.database import db
-from flask_start.models import Product
+from batuta.ext.auth import create_user
+from batuta.ext.database import db
+from batuta.models import Product
 
 
 def create_db():

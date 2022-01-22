@@ -3,17 +3,17 @@ DEBUG = false
 FLASK_ADMIN_TEMPLATE_MODE = "bootstrap3"
 FLASK_ADMIN_SWATCH = 'cerulean'
 SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
-TITLE = "flask_start"
+TITLE = "batuta"
 SECRET_KEY = "Pl3453Ch4ng3"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
 EXTENSIONS = [
     "flask_bootstrap:Bootstrap",
-    "flask_start.ext.database:init_app",
-    "flask_start.ext.auth:init_app",
-    "flask_start.ext.admin:init_app",
-    "flask_start.ext.commands:init_app",
-    "flask_start.ext.webui:init_app",
-    "flask_start.ext.restapi:init_app",
+    "batuta.ext.database:init_app",
+    "batuta.ext.auth:init_app",
+    "batuta.ext.admin:init_app",
+    "batuta.ext.commands:init_app",
+    "batuta.ext.webui:init_app",
+    "batuta.ext.restapi:init_app",
 ]
 
 [development]

@@ -15,10 +15,10 @@ echo "Project URL name: $urlname";
 echo "Description: $description";
 
 echo "Rendering the Flask template..."
-original_author="imakecodes"
-original_name="flask_start"
-original_urlname="flask-start"
-original_description="Awesome flask_start created by imakecodes" 
+original_author="makecodes"
+original_name="batuta"
+original_urlname="batuta"
+original_description="Awesome batuta created by makecodes" 
 TEMPLATE_DIR="./.github/templates/flask"
 for filename in $(find ${TEMPLATE_DIR} -name "*.*" -not \( -name "*.git*" -prune \) -not \( -name "apply.sh" -prune \)) 
 do
@@ -48,7 +48,7 @@ fi
 # Move module files
 rm -rf "${name}"
 rm -rf tests
-cp -R ${TEMPLATE_DIR}/flask_start "${name}"
+cp -R ${TEMPLATE_DIR}/batuta "${name}"
 cp -R ${TEMPLATE_DIR}/tests tests
 
 cp ${TEMPLATE_DIR}/README.md README.md
@@ -66,12 +66,12 @@ then
     make install
     echo "Applied Flask template"
     echo "Ensure you activate your env with 'source .venv/bin/activate'"
-    echo "then run 'flask_start' or 'python -m flask_start'"
+    echo "then run 'batuta' or 'python -m batuta'"
 else
     poetry install
     echo "Applied Flask template"
     echo "Ensure you activate your env with 'poetry shell'"
-    echo "then run 'flask_start' or 'python -m flask_start' or 'poetry run flask_start'"
+    echo "then run 'batuta' or 'python -m batuta' or 'poetry run batuta'"
 fi
 
 echo "README.md has instructions on how to use this Flask application."

@@ -1,7 +1,7 @@
 from flask import abort, render_template
 from flask_simplelogin import login_required
 
-from flask_start.models import Product
+from batuta.models import Product
 
 
 def index():

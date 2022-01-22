@@ -1,4 +1,4 @@
-"""Python setup.py for flask_start package"""
+"""Python setup.py for batuta package"""
 import io
 import os
 from setuptools import find_packages, setup
@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
-    >>> read("flask_start", "VERSION")
+    >>> read("batuta", "VERSION")
     '0.1.0'
     >>> read("README.md")
     ...
@@ -30,17 +30,17 @@ def read_requirements(path):
 
 
 setup(
-    name="flask_start",
-    version=read("flask_start", "VERSION"),
-    description="Awesome flask_start created by imakecodes",
-    url="https://github.com/imakecodes/flask-start/",
+    name="batuta",
+    version=read("batuta", "VERSION"),
+    description="Awesome batuta created by makecodes",
+    url="https://github.com/makecodes/batuta/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    author="imakecodes",
+    author="makecodes",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["flask_start = flask_start.__main__:main"]
+        "console_scripts": ["batuta = batuta.__main__:main"]
     },
     extras_require={
         "test": read_requirements("requirements-test.txt")

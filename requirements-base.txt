@@ -1,7 +1,7 @@
 pytest
 coverage
 flake8
-black
+blue
 isort
 pytest-cov
 codecov
