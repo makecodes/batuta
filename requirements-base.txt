@@ -1,0 +1,10 @@
+pytest
+coverage
+flake8==3.9.2
+blue
+isort
+pytest-cov
+codecov
+mypy
+gitchangelog
+mkdocs
