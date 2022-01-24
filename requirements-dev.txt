@@ -1,6 +1,6 @@
 -r requirements.txt
 
-blue
+black
 codecov
 coverage
 flake8==3.9.2
